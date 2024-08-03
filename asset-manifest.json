@@ -1,13 +1,13 @@
 {
   "files": {
     "main.css": "/stankovic-tech-solutions/static/css/main.e96cdcf5.css",
-    "main.js": "/stankovic-tech-solutions/static/js/main.88ca371e.js",
+    "main.js": "/stankovic-tech-solutions/static/js/main.e3146690.js",
     "index.html": "/stankovic-tech-solutions/index.html",
     "main.e96cdcf5.css.map": "/stankovic-tech-solutions/static/css/main.e96cdcf5.css.map",
-    "main.88ca371e.js.map": "/stankovic-tech-solutions/static/js/main.88ca371e.js.map"
+    "main.e3146690.js.map": "/stankovic-tech-solutions/static/js/main.e3146690.js.map"
   },
   "entrypoints": [
     "static/css/main.e96cdcf5.css",
-    "static/js/main.88ca371e.js"
+    "static/js/main.e3146690.js"
   ]
 }
