@@ -1,0 +1,33 @@
+.contact-container {
+    padding: 20px;
+    text-align: center;
+  
+    .contact-logo {
+      width: 300px; /* Adjust size as needed */
+      height: auto;
+      display: block;
+      margin: 0 auto 20px; /* Center horizontally and add margin at the bottom */
+    }
+  
+    h1 {
+      font-size: 2.5em;
+      color: #00008B; /* Dark blue */
+      margin-bottom: 20px;
+    }
+  
+    p {
+      font-size: 1.2em;
+      color: #333; /* Darker text color for readability */
+      line-height: 1.6;
+    }
+  
+    a {
+      color: #00008B; /* Dark blue */
+      text-decoration: none;
+  
+      &:hover {
+        text-decoration: underline;
+      }
+    }
+  }
+  

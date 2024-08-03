@@ -1,38 +1,42 @@
-.App {
-  text-align: center;
+/* Reset some basic styles */
+body {
+  margin: 0;
+  padding: 0;
+  font-family: Arial, sans-serif;
+  background-color: #87CEEB; /* Light sky blue background color */
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.navbar {
+  background-color: #B0E0E6; /* Light blue color for the navbar */
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.navbar-brand {
+  color: #00008B; /* Dark blue for the brand text */
+  font-weight: bold;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
+.nav-link {
+  color: #00008B; /* Dark blue for the navigation links */
+}
+
+.nav-link:hover {
+  color: #4682B4; /* Lighter blue for links on hover */
+}
+
+.routes-container {
+  padding: 20px;
+}
+
+.get-started-btn {
+  background-color: #00008B; /* Dark blue */
   color: white;
+  border: none;
+  padding: 10px 20px;
+  font-size: 16px;
+  cursor: pointer;
+  border-radius: 5px;
 }
 
-.App-link {
-  color: #61dafb;
-}
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.get-started-btn:hover {
+  background-color: #4682B4; /* Lighter blue on hover */
 }

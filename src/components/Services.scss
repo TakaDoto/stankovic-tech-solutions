@@ -1,0 +1,69 @@
+.services-container {
+    padding: 40px;
+    background-color: #f4f4f4; // Light grey background for contrast
+    color: #333; // Dark text color for readability
+  
+    h1 {
+      font-size: 3em;
+      color: #00008B; // Dark blue for the heading
+      text-align: center;
+      margin-bottom: 20px;
+    }
+  
+    p {
+      font-size: 1.2em;
+      line-height: 1.6;
+      margin-bottom: 20px;
+    }
+  
+    .services-list {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      gap: 20px;
+  
+      .service-item {
+        background-color: #ffffff; // White background for each service
+        border-radius: 8px;
+        box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+        padding: 20px;
+        width: 80%;
+        max-width: 800px;
+        text-align: center;
+  
+        h2 {
+          font-size: 2em;
+          color: #00008B; // Dark blue for the subheadings
+          margin-bottom: 10px;
+        }
+  
+        p {
+          font-size: 1.1em;
+          color: #555; // Slightly lighter text color
+        }
+      }
+    }
+  
+    .bottom-text-container {
+        position: fixed; /* Fixes the position relative to the viewport */
+        bottom: 20px; /* Adjust distance from the bottom */
+        left: 50%; /* Centers horizontally */
+        transform: translateX(-50%); /* Centers horizontally by adjusting the position */
+        text-align: center; /* Centers the text within the container */
+        width: 100%; /* Optional: ensures it spans the width of the viewport */
+        padding: 10px; /* Optional: adds padding for better spacing */
+        background-color: rgba(255, 255, 255, 0.8); /* Optional: adds a semi-transparent background for better readability */
+        border-radius: 5px; /* Optional: rounds the corners */
+        box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Optional: adds a subtle shadow for better visibility */
+      }
+      
+    // Responsive design adjustments
+    @media (max-width: 768px) {
+      .services-list {
+        .service-item {
+          width: 90%;
+        }
+      }
+    }
+  }
+  

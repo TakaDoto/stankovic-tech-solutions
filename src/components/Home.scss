@@ -1,0 +1,40 @@
+.home-container {
+  text-align: center;
+  padding: 20px;
+  
+  .logo {
+    position: fixed; /* Ensure it stays at the top of the page */
+    top: 300px; /* Adjust to provide some space from the top */
+    left: 50%; /* Center horizontally */
+    transform: translateX(-50%); /* Adjust for true centering */
+    width: 450px; /* Adjust size as needed */
+    height: auto; /* Maintain aspect ratio */
+    z-index: 1000; /* Ensure it's on top of other content */
+    display: block;
+    pointer-events: none; /* Ensure it doesn't block interactions with underlying content */
+  }
+
+  h1 {
+    font-size: 2.5em;
+    color: #00008B; /* Dark blue */
+  }
+
+  p {
+    font-size: 1.2em;
+    color: #4682B4; /* Lighter blue */
+  }
+  
+  .get-started-btn {
+    background-color: #00008B;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+    border-radius: 5px;
+  }
+
+  .get-started-btn:hover {
+    background-color: #4682B4; /* Lighter blue on hover */
+  }
+}
