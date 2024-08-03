@@ -16,7 +16,7 @@ class Home extends React.Component {
   render() {
     return (
       <div className="home-container">
-        <img src="/images/logo.gif" alt="Logo" className="logo" />
+        <img src={`${process.env.PUBLIC_URL}/images/logo.gif`} alt="Logo" className="logo" />
         <h1>Welcome to Stankovic Tech Solutions</h1>
         <p>Your trusted partner in tech solutions.</p>
         <p>Innovative development to power your business forward.</p>
