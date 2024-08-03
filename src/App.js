@@ -1,5 +1,5 @@
 import React from 'react';
-import { BrowserRouter as Router, Route, Routes, } from 'react-router-dom';
+import { HashRouter as Router, Route, Routes, Link } from 'react-router-dom';
 import Home from './components/Home';
 import About from './components/About';
 import Services from './components/Services';
@@ -8,21 +8,19 @@ import Contact from './components/Contact';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import './App.css';
 
-
 function App() {
   return (
     <Router>
       <div>
-        
         <nav className="navbar navbar-expand-lg navbar-light">
-          <a className="navbar-brand" href="/">Stankovic Tech Solutions</a>
+          <Link className="navbar-brand" to="/">Stankovic Tech Solutions</Link>
           <div className="collapse navbar-collapse">
             <ul className="navbar-nav mr-auto">
-              <li className="nav-item"><a className="nav-link" href="/">Home</a></li>
-              <li className="nav-item"><a className="nav-link" href="/about">About Us</a></li>
-              <li className="nav-item"><a className="nav-link" href="/services">Services</a></li>
-              <li className="nav-item"><a className="nav-link" href="/portfolio">Portfolio</a></li>
-              <li className="nav-item"><a className="nav-link" href="/contact">Contact</a></li>
+              <li className="nav-item"><Link className="nav-link" to="/">Home</Link></li>
+              <li className="nav-item"><Link className="nav-link" to="/about">About Us</Link></li>
+              <li className="nav-item"><Link className="nav-link" to="/services">Services</Link></li>
+              <li className="nav-item"><Link className="nav-link" to="/portfolio">Portfolio</Link></li>
+              <li className="nav-item"><Link className="nav-link" to="/contact">Contact</Link></li>
             </ul>
           </div>
         </nav>

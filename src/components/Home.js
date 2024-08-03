@@ -1,6 +1,6 @@
 import React from 'react';
 import axios from 'axios';
-import './Home.scss'; // Ensure this path is correct
+import './Home.scss';
 
 class Home extends React.Component {
   componentDidMount() {
@@ -16,11 +16,10 @@ class Home extends React.Component {
   render() {
     return (
       <div className="home-container">
-        <img src="/Images/logo.gif" alt="Logo" className="logo" />
+        <img src="/images/logo.gif" alt="Logo" className="logo" />
         <h1>Welcome to Stankovic Tech Solutions</h1>
         <p>Your trusted partner in tech solutions.</p>
         <p>Innovative development to power your business forward.</p>
-        
       </div>
     );
   }

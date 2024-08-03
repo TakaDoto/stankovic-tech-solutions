@@ -1,6 +1,7 @@
 {
-  "name": "stankovic-frontend",
-  "version": "0.1.0",
+  "name": "stankovic-tech-solutions",
+  "version": "1.0.0",
+  "homepage": "https://TakaDoto.github.io/stankovic-tech-solutions",
   "private": true,
   "dependencies": {
     "@testing-library/jest-dom": "^6.4.8",
@@ -45,6 +46,5 @@
     "resolve-url-loader": "^5.0.0",
     "sass": "^1.77.8",
     "sass-loader": "^16.0.0"
-  },
-  "homepage": "https://TakaDoto.github.io/stankovic-tech-solutions"
+  }
 }
